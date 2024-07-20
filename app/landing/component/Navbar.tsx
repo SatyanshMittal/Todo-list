@@ -9,17 +9,17 @@ const menu = [
   {
     icon: <RiStickyNoteAddLine />,
     name: "Todo-List",
-    Link: "todoList",
+    Link: "/landing/todoList",
   },
   {
     icon: <RiStickyNoteAddLine />,
     name: "Global-LIst",
-    Link: "globalList",
+    Link: "/landing/globalList",
   },
   {
     icon: <RiStickyNoteAddLine />,
     name: "24hr-List",
-    Link: "dayList",
+    Link: "/landing/dayList",
   },
 ];
 
