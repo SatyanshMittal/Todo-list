@@ -4,6 +4,7 @@ import Link from "next/link";
 import { RiStickyNoteAddLine } from "react-icons/ri";
 import { LuListTodo } from "react-icons/lu";
 
+
 const menu = [
   {
     icon: <RiStickyNoteAddLine />,
@@ -24,7 +25,7 @@ const menu = [
 
 export default function Navbar() {
   return (
-    <div className="py-10 flex flex-col justify-start px-5 items-start  w-1/4 border bg-white/10 border-r-white/50 h-screen">
+    <div className="py-10 flex flex-col justify-start px-5 items-start  w-1/4 border bg-[#0d1117] border-r-white/30 h-screen">
       <div className="flex gap-2 justify-center items-center text-3xl font-semibold">
         <LuListTodo />
         <p>Better-List</p>
