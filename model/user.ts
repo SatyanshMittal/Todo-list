@@ -27,7 +27,13 @@ const UserSchema:  Schema<User> = new Schema({
     password: {
         type: String, 
         required: [true, "password is required" ],
-    }
-})
+    },
+    taskNormal: [String],
+    taskDay: [String],
 
-const UserModel = (mongoose.models.User as mongoose.Model<User>) || mongoose.model<User>("User", UserSchema);
+
+}
+);
+
+    export const UserModel = (mongoose.models.User as mongoose.Model<User>) || mongoose.model<User>("User", UserSchema);
+

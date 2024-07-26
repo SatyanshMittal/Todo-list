@@ -21,6 +21,11 @@ const menu = [
     name: "24hr-List",
     Link: "/landing/dayList",
   },
+  {
+    icon: <RiStickyNoteAddLine />,
+    name: "AI List",
+    Link: "/landing/aiList",
+  },
 ];
 
 export default function Navbar() {
